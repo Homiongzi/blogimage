@@ -13,10 +13,10 @@ URL https://github.com/yumusb/autoPicCdn
 error_reporting(0);
 header('Content-Type: text/html; charset=UTF-8');
 date_default_timezone_set("PRC");
-define("REPO","testforapi");//必须是下面用户名下的公开仓库
-define("USER","yumusb");//必须是当前GitHub用户名
-define("MAIL","yumusb@foxmail.com");//
-define("TOKEN","YourToken");//https://github.com/settings/tokens 去这个页面生成一个有写权限的token（write:packages前打勾）
+define("REPO","blogimage");
+define("USER","Homiongzi");
+define("MAIL","crazyfry@foxmail.com");
+define("TOKEN","aab6e712bd303dd7d0aabf8befd1bf02809a05df");
 
 function upload($url, $content)
 {
